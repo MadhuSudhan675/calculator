@@ -1,0 +1,109 @@
+body {
+  background-color: gold;
+  font-family: "Roboto", sans-serif; /* Roboto font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 300px;
+  height: 380px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+  color: rgb(0, 112, 232);
+  margin: 0;
+  padding: 0px 10px 20px 10px;
+  box-sizing: border-box;
+}
+
+.form-control {
+  width: 90%;
+  margin-bottom: 10px;
+  font-size: 24px;
+  padding: 10px;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn {
+  flex: 1;
+  height: 50px;
+  font-size: 18px;
+  margin: 3px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #4caf50; /* green background */
+  color: #fff; /* white text */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #3e8e41; /* darker green background on hover */
+  transform: translateY(-3px);
+}
+
+.back-clear-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.back-button,
+.clear-button {
+  flex: 1;
+  height: 50px;
+  font-size: 18px;
+  margin: 3px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button {
+  background-color: #ff9800; /* orange background */
+  color: #fff; /* white text */
+}
+
+.back-button:hover {
+  background-color: #e68a00; /* darker orange background on hover */
+  transform: translateY(-3px);
+}
+
+.clear-button {
+  background-color: #ff69b4; /* pink background */
+  color: #fff; /* white text */
+}
+
+.clear-button:hover {
+  background-color: #e60073; /* darker pink background on hover */
+  transform: translateY(-3px);
+}
